@@ -9,18 +9,11 @@ public class Main {
     public static void main(String[] args) {
         Map<String,ArrayList> datamap= new HashMap<>();
         Scanner scanner = new Scanner(System.in);
-//        String key;
-
         Datain number1=new Datain();
 
         number1.Pow("koko",177,83,datamap);
         number1.Pow("pupuru",158,50,datamap);
         number1.Pow("buta",168,75,datamap);
-
-//        System.out.println(number1.getDate());
-//        System.out.println(number1.getDatamap());
-//        System.out.println(datamap.containsKey("wang"));
-//        System.out.println(datamap.containsKey("koko"));
 
         for(var name:datamap.entrySet()){
             String key=name.getKey();
